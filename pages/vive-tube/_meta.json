@@ -1,0 +1,16 @@
+{
+  "index": "Overview",
+  "getting-started": "Getting Started",
+  "installation": "Installation",
+  "authentication": "Authentication",
+  "features": "Features",
+  "faqs": "FAQs",
+  "---": {
+    "type": "separator"
+  },
+  "contact_vivetube": {
+    "title": "ViveTube Support ↗",
+    "href": "mailto:support@vivescriptsolutions.com?subject=ViveTube%20Support%20Request",
+    "newWindow": true
+  }
+}
