@@ -8,6 +8,8 @@
   "---": {
     "type": "separator"
   },
+  "privacy-policy": "Privacy Policy",
+  "terms-of-service": "Terms Of Service",
   "contact_vivetube": {
     "title": "ViveTube Support ↗",
     "href": "mailto:support@vivescriptsolutions.com?subject=ViveTube%20Support%20Request",
