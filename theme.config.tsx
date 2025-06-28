@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { DocsThemeConfig } from "nextra-theme-docs";
-import Link from "next/link"; // Import NextLink for client-side navigation
+import Link from "next/link";
 
 const products = [
   {
@@ -43,9 +43,9 @@ const ProductsDropdown = () => {
 
 const config: DocsThemeConfig = {
   logo: (
-    <span className="flex">
+    <span className="nx-flex nx-items-center nx-gap-2">
       <Image src="/logo.svg" alt="vive-docs-logo" width={24} height={24} />
-      <span style={{ marginLeft: "8px" }}>ViveDocs</span>
+      <span>ViveDocs</span>
     </span>
   ),
   project: {
