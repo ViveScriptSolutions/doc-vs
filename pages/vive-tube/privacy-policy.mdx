@@ -1,0 +1,115 @@
+# ViveTube: YouTube Insights for Google Sheets - Privacy Policy
+
+**Last Updated:** June 30, 2025
+
+This Privacy Policy describes how ViveScript Solutions LLC ("we," "us," or "our") collects, uses, and shares information when you use the ViveTube: YouTube Insights for Google Sheets add-on ("ViveTube" or "the Add-on").
+
+By installing and using ViveTube, you agree to the collection and use of information in accordance with this policy.
+
+## 1. What Information We Collect
+
+ViveTube is a Google Sheets add-on that operates within your Google environment. We primarily collect and process data directly related to your use of the Add-on's features.
+
+### 1.1. Google User Data (Accessed via OAuth Scopes)
+
+When you authorize ViveTube, you grant it access to certain data from your Google Account and YouTube channels. We request the minimum necessary permissions (OAuth scopes) to provide the Add-on's functionality.
+
+- **Your Email Address (`https://www.googleapis.com/auth/userinfo.email`):**
+- **Purpose:** To identify you as a unique user for managing your subscription plan, associating your tracked channels, personalizing data caching, and linking your account to payment sessions initiated via our backend.
+- **Storage:** Stored in your Google Apps Script User Properties.
+- **Google Sheets Data (`https://www.googleapis.com/auth/spreadsheets.currentonly`, `https://www.googleapis.com/auth/spreadsheets`):**
+- **Purpose:** To read and write data within the Google Sheet where the Add-on is installed. This includes:
+  - Reading configuration (e.g., date ranges for reports) from specific cells.
+  - Creating and updating dedicated sheets for each tracked YouTube channel with analytics data.
+  - Managing a hidden "config" sheet for dropdowns and internal settings.
+  - (If applicable) Copying template sheets for dashboards.
+- **Storage:** Stored within your Google Sheet document. We do not store copies of your spreadsheet data on our servers.
+- **YouTube Channel Data (`https://www.googleapis.com/auth/youtube.readonly`, `https://www.googleapis.com/auth/yt-analytics.readonly`, `https://www.googleapis.com/auth/yt-analytics-monetary.readonly`):**
+- **Purpose:** To fetch various types of data from the YouTube Data API and YouTube Analytics API for the YouTube channels you authorize and track:
+  - **Channel Metadata:** Channel ID, title, description, custom URL, country, thumbnail URL, total subscribers, total videos, total views.
+  - **Performance Metrics:** Views, watch time (estimated minutes watched), subscribers gained/lost, likes, dislikes, shares, comments, average view percentage, card click rate.
+  - **Monetary Data:** Estimated revenue (only for channels you mark as "Monetized" and for which you grant `yt-analytics-monetary.readonly` access).
+  - **Audience Demographics:** Viewer percentage by age group and gender, views by operating system, device type, and country.
+  - **Top Videos:** Video IDs, titles, views, watch time, likes, comments, shares for your top-performing videos.
+  - **Channel Discovery:** To identify YouTube channels associated with your authorized Google Account, allowing you to easily add them for tracking.
+- **Storage:** This data is fetched directly from YouTube APIs and written into your Google Sheet. A subset of this data (channel ID, title, monetization status, associated service name, and account email) is stored in your Google Apps Script User Properties to manage your list of tracked channels. We do not store copies of your YouTube analytics data on our servers.
+- **Script Triggers (`https://www.googleapis.com/auth/script.scriptapp`):**
+- **Purpose:** To create and manage time-driven triggers for automated tasks such as:
+  - Daily subscription status checks.
+  - Daily data synchronization (refreshing YouTube data in your sheet).
+  - Sending automated daily email reports (if configured).
+- **Storage:** Triggers are managed by Google Apps Script and associated with your Google Account.
+- **Email Sending (`https://www.googleapis.com/auth/script.send_mail`):**
+- **Purpose:** To send automated daily performance summary emails to the recipient email address you configure within the Add-on.
+- **Storage:** The recipient email address is stored in your Google Apps Script User Properties. We do not store copies of sent emails.
+- **Locale Information (`https://www.googleapis.com/auth/script.locale`):**
+- **Purpose:** To format dates and times correctly according to your script's configured timezone for timestamps, report dates, and filenames.
+- **Storage:** Not stored, used dynamically.
+
+### 1.2. Non-Google Data
+
+- **Subscription Plan Details:**
+- **Purpose:** To manage your subscription status (e.g., Free, Trial, Basic, Pro), channel limits, and feature access. This information is retrieved from our backend server (`vivescriptsolutions.com`) based on your email address.
+- **Storage:** Your current subscription plan ID, trial end date, and a unique ViveScript Subscription ID (if applicable) are stored in your Google Apps Script User Properties. We do not store your full payment details.
+- **Payment Information (via Stripe):**
+- **Purpose:** When you initiate a subscription payment, you are redirected to Stripe, a third-party payment processor. We do not collect or store your credit card details or other sensitive payment information. This data is handled directly by Stripe.
+- **Storage:** Stripe's privacy policy governs the collection and use of your payment information.
+
+## 2. How We Use Your Information
+
+We use the collected information solely for the following purposes:
+
+- **To Provide and Maintain the Add-on:** Delivering the core functionality of fetching YouTube data and populating your Google Sheet.
+- **To Manage Your Subscription:** Determining your access to features and channel limits based on your plan.
+- **To Personalize Your Experience:** Customizing data fetching based on your settings (e.g., historical periods, top video periods).
+- **To Send Email Reports:** If you opt-in, sending daily performance summaries to your specified email address.
+- **For Internal Analytics:** Analyzing aggregated, anonymized usage data to improve the Add-on's performance, features, and user experience. This data cannot identify you personally.
+- **For Troubleshooting and Support:** To diagnose and resolve technical issues you may encounter.
+
+## 3. How Your Information is Stored
+
+ViveTube leverages Google's secure infrastructure for data storage:
+
+- **Google Apps Script User Properties:** Your Add-on specific settings, such as your list of tracked channels (IDs, titles, monetization status, associated service name, account email), authorization tokens (managed by Google's OAuth2 library), subscription plan details, and email report configurations, are stored securely in your Google Apps Script User Properties. This data is associated with your Google Account and is not directly accessible by us outside of the Add-on's execution environment.
+- **Google Sheets:** The YouTube analytics data fetched by the Add-on is written directly into your Google Sheet document. This data resides entirely within your Google Drive.
+- **Google Apps Script Cache Service:** Temporary API responses are cached in your Google Apps Script User Cache to optimize performance and reduce API quota usage. This cached data is ephemeral and automatically expires.
+- **Our Backend (vivescriptsolutions.com):** Our backend only stores information necessary for managing your subscription (e.g., your email, subscription ID, plan status). It does not store your YouTube channel data or your Google Sheet content.
+
+## 4. Data Sharing and Disclosure
+
+We do not sell, rent, or trade your personal information. We only share your information in the following limited circumstances:
+
+- **With Google APIs:** As necessary to fetch data from YouTube Data API and YouTube Analytics API, and to interact with Google Sheets.
+- **With ViveScript Solutions Backend:** Your email address and subscription-related requests are sent to our backend (`vivescriptsolutions.com`) to verify and manage your subscription status.
+- **With Stripe:** When you initiate a payment, you are redirected to Stripe, which processes your payment information. We do not receive or store your sensitive payment details.
+- **For Legal Reasons:** We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., a court order or government agency).
+- **With Your Consent:** We may share your information with third parties when we have your explicit consent to do so.
+
+## 5. Data Security
+
+We are committed to protecting the security of your information. We utilize Google's robust security infrastructure for Google Apps Script and Google Drive, which includes encryption in transit and at rest, and strict access controls. OAuth2 is used for secure authorization, ensuring your credentials are not directly handled by the Add-on. Your API keys for our backend are stored securely in Script Properties.
+
+## 6. Your Data Rights and Choices
+
+You have control over your data:
+
+- **Access and Modification:** You can view and manage your tracked channels and settings directly within the ViveTube Add-on's interface in Google Sheets.
+- **Deletion:** You can remove individual channels from tracking. You can also use the "Reset All Add-on Data" feature in the Settings sidebar to clear all your saved settings, channel lists, and revoke the Add-on's authorization. This will delete all data stored in your Google Apps Script User Properties associated with ViveTube.
+- **Revoke Authorization:** You can revoke ViveTube's access to your Google Account at any time through your Google Account security settings (myaccount.google.com/permissions). Revoking authorization will prevent the Add-on from fetching new data or accessing your Google Sheet.
+- **Opt-out of Email Reports:** You can disable automated email reports at any time through the Add-on's Report Setup settings.
+
+## 7. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. We encourage you to review this Privacy Policy periodically for any changes.
+
+## 8. Contact Us
+
+If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
+
+**Email:** support@vivescriptsolutions.com
+**Website:** https://www.vivescriptsolutions.com/shop/subscription/vive-tube
+
+This Privacy Policy is designed to be comprehensive but may not cover every
+specific scenario. It is provided for informational purposes and should be
+reviewed by legal counsel to ensure full compliance with all applicable laws
+and regulations.

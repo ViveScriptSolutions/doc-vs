@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg9"
+   width="626.48822"
+   height="450.88312"
+   viewBox="0 0 626.48822 450.88312"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <g
+     id="g17"
+     transform="matrix(1.3333333,0,0,-1.3333333,-20.089254,558.77489)">
+    <g
+       id="g1327"
+       transform="matrix(1.1602654,0,0,1.1602654,-40.066352,-60.63149)">
+      <text
+         xml:space="preserve"
+         transform="scale(1,-1)"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.5706px;font-family:Lato;-inkscape-font-specification:Lato-Regular;writing-mode:lr-tb;fill:#0266fe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2"
+         id="text27"
+         x="112.64487"
+         y="-122.355"><tspan
+           id="tspan25"
+           style="stroke-width:2"
+           x="112.64487"
+           y="-122.355">Service Documentation</tspan></text>
+      <g
+         id="g1306"
+         transform="translate(0.65781476)">
+        <path
+           d="m 135.45919,402.72561 h 34.26601 v -167.812 h -34.26601 z m -7.324,-175.136 h 48.91401 v 182.46 h -48.91401 z"
+           style="fill:#0266fe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2"
+           id="path29" />
+        <path
+           d="m 429.5332,234.91361 h -34.268 v 167.812 h 34.268 z m -41.59,-7.324 h 48.916 v 182.46 h -48.916 z"
+           style="fill:#0266fe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2"
+           id="path31" />
+        <path
+           d="m 61.825196,227.58961 h 48.915994 v 182.46 H 61.825196 Z"
+           style="fill:#0266fe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2"
+           id="path33" />
+        <g
+           id="g35"
+           transform="matrix(2,0,0,2,260.2606,413.45081)">
+          <path
+             d="m 0,0 -38.138,-83.33 22.135,-10.13 38.138,83.329 z"
+             style="fill:#0266fe;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path37" />
+        </g>
+        <g
+           id="g39"
+           transform="matrix(2,0,0,2,243.3602,251.11481)">
+          <path
+             d="M 0,0 21.081,-12.171 66.902,67.193 45.821,79.365 Z"
+             style="fill:#0266fe;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path41" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:43.2239px;font-family:'Malayalam Sangam MN';-inkscape-font-specification:'Malayalam Sangam MN, Normal';fill:#0266fe;fill-opacity:1;stroke-width:0.900499"
+         x="56.546478"
+         y="-134.83339"
+         id="text363"
+         transform="scale(0.83287157,-1.2006653)"><tspan
+           id="tspan361"
+           x="56.546478"
+           y="-134.83339"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:43.2239px;font-family:'Lato Heavy';-inkscape-font-specification:'Lato Heavy,  Bold';fill:#0266fe;fill-opacity:1;stroke-width:0.900499">ViveScript Solutions</tspan></text>
+    </g>
+  </g>
+</svg>
