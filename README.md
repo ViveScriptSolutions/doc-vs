@@ -30,7 +30,7 @@ Before you start the submission process in the Google Cloud Platform console, ga
 
 **Branding Assets:**
 
-- **Application Name:** "ViveTube: YouTube Insights for Google Sheets" (from `appsscript.json`)
+- **Application Name:** "ViveTube – YouTube Insights for Sheets" (from `appsscript.json`)
 - **Application Logo (Icon):** https://www.vivescriptsolutions.com/assets/images/vive-tube/vive-tube-logo.png (from `appsscript.json`). Ensure this is high quality, typically 96x96 px or 128x128 px.
 - **Promotional Tile:** A larger image representing your add-on.
   - Required: At least one 440x280 pixels (e.g., a banner or key feature graphic).
@@ -128,7 +128,7 @@ Google's review process is thorough. Here are critical areas:
 - Navigate to "APIs & Services" > "OAuth consent screen."
 - **User Type:** Likely "External."
 - **App information:**
-  - App name: ViveTube: YouTube Insights for Google Sheets
+  - App name: ViveTube – YouTube Insights for Sheets
   - User support email: Your support email (info@vivescriptsolutions.com)
   - App logo: Upload your logo.
 - **App domain:**
@@ -157,7 +157,7 @@ Google's review process is thorough. Here are critical areas:
 **4. Configure Store Listing (in Marketplace SDK):**
 
 - Click on "Store Listing."
-- **Application Name:** ViveTube: YouTube Insights for Google Sheets
+- **Application Name:** ViveTube – YouTube Insights for Sheets
 - **Short Description, Long Description:** Enter the content you prepared.
 - **Category:** Select the most appropriate one.
 - **Pricing:** Select your pricing model.

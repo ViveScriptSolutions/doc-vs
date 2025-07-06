@@ -7,7 +7,7 @@ const products = [
   {
     name: "ViveTube",
     path: "/vive-tube",
-    description: "ViveTube: YouTube Insights for Google Sheets",
+    description: "ViveTube – YouTube Insights for Sheets",
   },
   {
     name: "Vive API Suite",
