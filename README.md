@@ -31,7 +31,7 @@ Before you start the submission process in the Google Cloud Platform console, ga
 **Branding Assets:**
 
 - **Application Name:** "ViveReports: Track Video Performance" (from `appsscript.json`)
-- **Application Logo (Icon):** https://www.vivescriptsolutions.com/assets/images/vive-reports/vive-reports-logo.png (from `appsscript.json`). Ensure this is high quality, typically 96x96 px or 128x128 px.
+- **Application Logo (Icon):** https://www.vivescriptsolutions.com/assets/images/vive-reports/vive-reports-track-video-performance.png (from `appsscript.json`). Ensure this is high quality, typically 96x96 px or 128x128 px.
 - **Promotional Tile:** A larger image representing your add-on.
   - Required: At least one 440x280 pixels (e.g., a banner or key feature graphic).
   - Recommended: Additional sizes if you want more control over appearance.
