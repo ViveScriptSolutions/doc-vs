@@ -12,9 +12,9 @@
     "title": "",
     "type": "separator"
   },
-  "contact_vivetube": {
-    "title": "ViveTube Support ↗",
-    "href": "mailto:support@vivescriptsolutions.com?subject=ViveTube%20Support%20Request",
+  "contact_ViveReports": {
+    "title": "ViveReports Support ↗",
+    "href": "mailto:support@vivescriptsolutions.com?subject=ViveReports%20Support%20Request",
     "newWindow": true
   }
 }

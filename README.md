@@ -30,8 +30,8 @@ Before you start the submission process in the Google Cloud Platform console, ga
 
 **Branding Assets:**
 
-- **Application Name:** "ViveTube – YouTube Insights for Sheets" (from `appsscript.json`)
-- **Application Logo (Icon):** https://www.vivescriptsolutions.com/assets/images/vive-tube/vive-tube-logo.png (from `appsscript.json`). Ensure this is high quality, typically 96x96 px or 128x128 px.
+- **Application Name:** "ViveReports: Track Video Performance" (from `appsscript.json`)
+- **Application Logo (Icon):** https://www.vivescriptsolutions.com/assets/images/vive-reports/vive-reports-logo.png (from `appsscript.json`). Ensure this is high quality, typically 96x96 px or 128x128 px.
 - **Promotional Tile:** A larger image representing your add-on.
   - Required: At least one 440x280 pixels (e.g., a banner or key feature graphic).
   - Recommended: Additional sizes if you want more control over appearance.
@@ -54,11 +54,11 @@ Before you start the submission process in the Google Cloud Platform console, ga
 
 **Support and Legal Links (Verify these in your `Constant.js` `Config.APP_URLS`):**
 
-- **Homepage URL:** https://www.vivescriptsolutions.com/shop/subscription/vive-tube
-- **Support URL:** https://www.vivescriptsolutions.com/support/vive-tube (Your new dedicated support page)
-- **Privacy Policy URL:** https://doc.vivescriptsolutions.com/vive-tube/privacy-policy (Your new dedicated privacy policy)
-- **Terms of Service URL:** https://doc.vivescriptsolutions.com/vive-tube/terms-of-service (Your new dedicated terms of service)
-- **Documentation URL (Optional but Recommended):** https://doc.vivescriptsolutions.com/vive-tube (or link to relevant sections within your support page).
+- **Homepage URL:** https://www.vivescriptsolutions.com/shop/subscription/vive-reports
+- **Support URL:** https://www.vivescriptsolutions.com/support/vive-reports (Your new dedicated support page)
+- **Privacy Policy URL:** https://doc.vivescriptsolutions.com/vive-reports/privacy-policy (Your new dedicated privacy policy)
+- **Terms of Service URL:** https://doc.vivescriptsolutions.com/vive-reports/terms-of-service (Your new dedicated terms of service)
+- **Documentation URL (Optional but Recommended):** https://doc.vivescriptsolutions.com/vive-reports (or link to relevant sections within your support page).
 
 **Developer Information:**
 
@@ -128,13 +128,13 @@ Google's review process is thorough. Here are critical areas:
 - Navigate to "APIs & Services" > "OAuth consent screen."
 - **User Type:** Likely "External."
 - **App information:**
-  - App name: ViveTube – YouTube Insights for Sheets
+  - App name: ViveReports: Track Video Performance
   - User support email: Your support email (info@vivescriptsolutions.com)
   - App logo: Upload your logo.
 - **App domain:**
-  - Application home page: https://www.vivescriptsolutions.com/shop/subscription/vive-tube
-  - Application privacy policy link: https://doc.vivescriptsolutions.com/vive-tube/privacy-policy
-  - Application terms of service link: https://doc.vivescriptsolutions.com/vive-tube/terms-of-service
+  - Application home page: https://www.vivescriptsolutions.com/shop/subscription/vive-reports
+  - Application privacy policy link: https://doc.vivescriptsolutions.com/vive-reports/privacy-policy
+  - Application terms of service link: https://doc.vivescriptsolutions.com/vive-reports/terms-of-service
 - **Authorized domains:** Add `vivescriptsolutions.com`.
 - **Developer contact information:** Your contact email.
 - **Scopes:** Click "Add or Remove Scopes." Manually add all scopes listed in your `appsscript.json`. For each scope, you will need to provide a clear, concise justification explaining why your add-on needs it. This is a very important step for the review.
@@ -157,7 +157,7 @@ Google's review process is thorough. Here are critical areas:
 **4. Configure Store Listing (in Marketplace SDK):**
 
 - Click on "Store Listing."
-- **Application Name:** ViveTube – YouTube Insights for Sheets
+- **Application Name:** ViveReports: Track Video Performance
 - **Short Description, Long Description:** Enter the content you prepared.
 - **Category:** Select the most appropriate one.
 - **Pricing:** Select your pricing model.

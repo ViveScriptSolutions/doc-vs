@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const products = [
   {
-    name: "ViveTube",
-    path: "/vive-tube",
-    description: "ViveTube – YouTube Insights for Sheets",
+    name: "ViveReports",
+    path: "/vive-reports",
+    description: "ViveReports: Track Video Performance",
   },
   {
     name: "Vive API Suite",

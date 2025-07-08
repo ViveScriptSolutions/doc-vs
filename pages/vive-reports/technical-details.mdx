@@ -1,16 +1,16 @@
-# ViveTube – YouTube Insights for Sheets
+# ViveReports: Track Video Performance
 
 **Version:** 1.0.0 (Current Version)
 **Tagline:** Unlock YouTube Insights, Directly in Google Sheets.
 **Developer:** ViveScript Solutions LLC
 **Support:** support@vivescriptsolutions.com
-**Homepage:** https://www.vivescriptsolutions.com/shop/subscription/vive-tube
+**Homepage:** https://www.vivescriptsolutions.com/shop/subscription/vive-reports
 
 ## Project Overview
 
-ViveTube is a powerful Google Sheets add-on that connects directly to the YouTube API, allowing you to automate your YouTube analytics tracking. With just a few clicks, pull in real-time channel and video performance data—including views, subscribers, watch time, likes, comments, CTR, and more—into your spreadsheet.
+ViveReports is a powerful Google Sheets add-on that connects directly to the YouTube API, allowing you to automate your YouTube analytics tracking. With just a few clicks, pull in real-time channel and video performance data—including views, subscribers, watch time, likes, comments, CTR, and more—into your spreadsheet.
 
-Whether you're a creator, marketer, or data analyst, ViveTube saves time and improves decision-making with structured, spreadsheet-friendly metrics. The tool offers flexible plans, including a free version and a 15-day trial of premium features, making it ideal for YouTubers of all sizes.
+Whether you're a creator, marketer, or data analyst, ViveReports saves time and improves decision-making with structured, spreadsheet-friendly metrics. The tool offers flexible plans, including a free version and a 15-day trial of premium features, making it ideal for YouTubers of all sizes.
 
 **Primary Goal:** To empower YouTube creators with accessible and actionable insights within their familiar spreadsheet environment.
 
@@ -24,8 +24,8 @@ Whether you're a creator, marketer, or data analyst, ViveTube saves time and imp
 
 ## Key Data Points:
 
-- **Application Name:** ViveTube – YouTube Insights for Sheets
-- **Application Logo:** https://www.vivescriptsolutions.com/assets/images/vive-tube/vive-tube-logo.png
+- **Application Name:** ViveReports: Track Video Performance
+- **Application Logo:** https://www.vivescriptsolutions.com/assets/images/vive-reports/vive-reports-logo.png
 - **Promotional Tile:** Automated YouTube Analytics in Google Sheets
 - **Short Description:** Pull YouTube analytics like views, subscribers, and video stats into Google Sheets—automatically and effortlessly.
 - **Long Description:** (See "Long Description" section below)
@@ -37,7 +37,7 @@ Whether you're a creator, marketer, or data analyst, ViveTube saves time and imp
 Based on your provided code (`Code.js`, `UserPreferences.js`, `YouTubeService.js`, etc.), all the OAuth scopes currently listed in your `appsscript.json` appear to be necessary and well-justified:
 
 - **`https://www.googleapis.com/auth/script.container.ui`**
-  - **Justification:** Used to create the add-on's custom menu (`📺 ViveTube`) and display sidebars (`AppDashboard`, `ChannelInfo`, `SettingsSidebar`, `HelpSidebar`, `ReportSetup`) and modal dialogs (`SubscriptionPlans`) within the Google Sheets interface.
+  - **Justification:** Used to create the add-on's custom menu (`📺 ViveReports`) and display sidebars (`AppDashboard`, `ChannelInfo`, `SettingsSidebar`, `HelpSidebar`, `ReportSetup`) and modal dialogs (`SubscriptionPlans`) within the Google Sheets interface.
   - **Necessity:** Essential for any add-on that provides a user interface.
 - **`https://www.googleapis.com/auth/spreadsheets.currentonly`**
   - **Justification:** Used for most interactions with the active spreadsheet, such as reading configuration from the "Dashboard" sheet (e.g., date ranges), writing analytics data to channel-specific sheets, and managing the hidden "config" sheet for channel dropdowns.
@@ -115,15 +115,15 @@ The domains listed in your `urlFetchWhitelist` are also justified:
     - Note the `SCRIPT_ID` from the web app URL to correctly form your redirect URI in GCP.
 4.  **Testing:**
     - Open a Google Sheet.
-    - The "📺 ViveTube" menu should appear (you might need to refresh or authorize the script for the current document first).
+    - The "📺 ViveReports" menu should appear (you might need to refresh or authorize the script for the current document first).
     - Use the "Channel Info" sidebar to initiate authorization.
 
 ## Support and Legal
 
-- **Homepage URL:** https://www.vivescriptsolutions.com/shop/subscription/vive-tube
-- **Support URL:** https://www.vivescriptsolutions.com/support/vive-tube
-- **Privacy Policy URL:** https://doc.vivescriptsolutions.com/vive-tube/privacy-policy
-- **Terms of Service URL:** https://doc.vivescriptsolutions.com/vive-tube/terms-of-service
+- **Homepage URL:** https://www.vivescriptsolutions.com/shop/subscription/vive-reports
+- **Support URL:** https://www.vivescriptsolutions.com/support/vive-reports
+- **Privacy Policy URL:** https://doc.vivescriptsolutions.com/vive-reports/privacy-policy
+- **Terms of Service URL:** https://doc.vivescriptsolutions.com/vive-reports/terms-of-service
 
 ---
 
