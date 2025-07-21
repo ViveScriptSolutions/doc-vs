@@ -1,21 +1,50 @@
-# Frequently Asked Questions (FAQs)
+---
+title: 'Frequently Asked Questions (FAQs)'
+description: 'Find answers to common questions about ViveReports, including pricing, security, and data accuracy.'
+---
 
-Here are some common questions about ViveReports.
+{/* AI INSTRUCTIONS:
+- This page should address common user questions.
+- Use a question-and-answer format.
+- Group related questions under headings if the list becomes long.
+- Write clear, concise answers.
+- If an answer is detailed, link to the relevant documentation page.
+*/}
 
-### Q: Is ViveReports free to use?
+# Frequently Asked Questions
 
-A: (Detail your pricing model here - e.g., "ViveReports offers a free tier with limited features and premium tiers for advanced capabilities and higher usage limits.")
+## General
 
-### Q: What permissions does ViveReports require?
+**Is ViveReports free?**
+ViveReports has a free tier with basic features and a premium subscription that unlocks advanced capabilities like automated data refresh and competitor tracking.
 
-A: ViveReports requires read-only access to your YouTube Analytics data to fetch statistics. It also needs permission to run as a Google Sheets Add-on. We do not store your YouTube credentials.
+**Is my data secure?**
+Yes. ViveReports uses Google's secure OAuth2 protocol for authentication and only requests read-only access to your YouTube data. We never see or store your password. For more information, please see our [Privacy Policy](./privacy-policy).
 
-### Q: How often does the data refresh?
+**How accurate is the data?**
+The data comes directly from the official YouTube Analytics API, so it is as accurate as the data you see in your YouTube Studio dashboard.
 
-A: (Explain data refresh capabilities - e.g., "Manual refresh is always available. Automated refreshes can be configured in the premium version, ranging from daily to hourly.")
+## Usage
 
-### Q: Can I use ViveReports for multiple YouTube channels?
+**How often does the data refresh?**
+On the free plan, you can refresh your data manually at any time. Premium users can set up an automatic daily refresh.
 
-A: (Explain multi-channel support - e.g., "Yes, you can authorize ViveReports to access data from any YouTube channel your connected Google Account manages.")
+**Can I track channels I don't own?**
+Yes, you can use the "Competitor Tracking" feature to monitor the public statistics of any YouTube channel. You can only access detailed private analytics (like revenue and audience retention) for channels you have authenticated.
 
-_(Add more questions and answers relevant to ViveReports)_
+**Does this work on both Mac and Windows?**
+Yes. Since ViveReports is a Google Sheets add-on, it works in any web browser on any operating system.
+
+## Troubleshooting
+
+**The add-on is not loading. What should I do?**
+1.  Try refreshing the Google Sheet.
+2.  Make sure you are logged into the correct Google account.
+3.  Clear your browser's cache and cookies.
+4.  If the problem persists, please contact [support](mailto:support@vivescriptsolutions.com).
+
+**I'm getting an error when trying to refresh data.**
+This can happen for a few reasons:
+-   Your authentication may have expired. Try disconnecting and reconnecting your account in the `Settings` tab.
+-   The YouTube API might be temporarily unavailable. Try again in a few minutes.
+-   You may have exceeded your API quota. This is rare for normal usage.

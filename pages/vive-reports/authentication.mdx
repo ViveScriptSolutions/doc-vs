@@ -1,21 +1,42 @@
+---
+title: 'Connecting Your YouTube Account'
+description: 'How to authenticate ViveReports with your YouTube account to access analytics data.'
+---
+
+{/* AI INSTRUCTIONS:
+- This page details the OAuth2 authentication flow.
+- Explain *why* authentication is necessary (to access private YouTube data).
+- Use a step-by-step format.
+- Emphasize that the access is read-only and secure.
+- Include information on how to disconnect or manage connected accounts.
+*/}
+
 # Authentication
 
-To allow ViveReports to fetch data from YouTube on your behalf, you'll need to authenticate it.
+To pull your private YouTube analytics data, you need to grant ViveReports secure, read-only access to your YouTube account. This process is handled through Google's secure OAuth2 system.
 
-## Connecting Your YouTube Account
+## How to Connect Your Account
 
-1.  After installing ViveReports, open a Google Sheet.
-2.  Go to `Extensions` > `ViveReports: Track Video Performance` > `Open ViveReports Sidebar` (or a similar menu item like `Authorize Account`).
-3.  The ViveReports sidebar will appear.
-4.  Click on the "Connect YouTube Account" or "Authorize" button within the sidebar.
-5.  You will be prompted to sign in with the Google Account that has access to the YouTube channel(s) you want to analyze.
-6.  Grant ViveReports the necessary permissions to access your YouTube analytics data. These permissions are typically read-only and are required to fetch statistics.
+1.  **Open the App:** From a Google Sheet, go to `Extensions` > `ViveReports: Track Video Performance` > `Open App`.
+2.  **Click "Connect":** In the sidebar, click the **"Connect New YouTube Account"** button.
+3.  **Choose Your Google Account:** A pop-up window will appear asking you to choose the Google account associated with your YouTube channel.
+4.  **Grant Permissions:** Google will show you a list of permissions that ViveReports is requesting. These include:
+    -   **View your YouTube Analytics reports:** To get video and channel performance data.
+    -   **View your YouTube account:** To get basic information like channel names and video lists.
+    -   **View your monetary data (optional):** Only if you choose to track revenue for monetized channels.
+5.  **Confirmation:** After you click "Allow," the pop-up will close, and the sidebar will update to show your connected account.
 
-## API Key (Optional - Advanced)
+## Managing Connected Accounts
 
-For certain advanced use cases or if you prefer to use your own YouTube Data API quota, ViveReports might offer an option to input your own API key.
+You can connect multiple YouTube accounts to ViveReports.
 
-- **Where to find this option:** (Describe if applicable, e.g., "In the ViveReports sidebar settings...")
-- **How to generate a YouTube Data API Key:** (Link to Google's documentation or provide brief steps)
+-   **Adding another account:** Simply click the "Connect New YouTube Account" button again.
+-   **Switching between accounts:** If you have multiple accounts connected, a dropdown menu will appear, allowing you to select which one to use for adding new channels.
+-   **Disconnecting an account:** To disconnect an account, go to the `Settings` tab in the add-on sidebar and click the "Disconnect" button next to the account name.
 
-Once authenticated, you're ready to explore ViveReports's Features!
+## Security
+
+-   **Read-Only Access:** ViveReports only requests **read-only** permissions. It cannot change, delete, or upload anything to your YouTube account.
+-   **Google's Security:** The entire authentication process is handled by Google. ViveReports never sees or stores your password.
+
+Now that you're connected, you're ready to start using the [features](./features)!
